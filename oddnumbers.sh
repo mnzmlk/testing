@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create or clear the output file
-output_file="even_numbers.txt"
+output_file="odd_numbers.txt"
 > $output_file
 
 # Loop through numbers from 1 to 100

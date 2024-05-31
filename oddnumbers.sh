@@ -7,10 +7,10 @@ output_file="odd_numbers.txt"
 # Loop through numbers from 1 to 100
 for ((i=1; i<=100; i++))
 do
-    # Check if the number is even
-    if ((i % 2! == 0))
+    # Check if the number is odd
+    if ((i % 2 ! == 0))
     then
-        # Print the even number to the output file
+        # Print the odd number to the output file
         echo $i >> $output_file
     fi
 done

@@ -8,7 +8,7 @@ output_file="odd_numbers.txt"
 for ((i=1; i<=100; i++))
 do
     # Check if the number is odd
-    if ((i % 2 ! == 0))
+    if ((i % 2! == 0))
     then
         # Print the odd number to the output file
         echo $i >> $output_file

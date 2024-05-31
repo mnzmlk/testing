@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Create or clear the output file
